@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #FFF;
+  background: #000;
+}
+
+#canvas_1 {
+  display: block;
+  background: #91fcff;
+  margin: 0 auto 50px;
+}
+#canvas_2 {
+  display: none;
+  background: #070058;
+  margin: 0 auto 50px;
+}
+#cvs_test {
+  background: #fff;
+  display: none;
+  margin: auto;
+}
