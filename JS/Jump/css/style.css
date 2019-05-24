@@ -8,6 +8,9 @@ body {
   color: #FFF;
   background: #000;
 }
+h2 {
+  text-align: center;
+}
 
 #canvas_1 {
   display: block;
