@@ -1,0 +1,11 @@
+/* Pacifico Regular */
+@font-face {
+    font-family: "Pacifico";
+    src: url("../ressources/fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+/* Josefin Slab Regular Italic */
+@font-face {
+    font-family: "Josefin Slab";
+    src: url('../ressources/fonts/Josefin_Slab/JosefinSlab-RegularItalic.ttf');
+}

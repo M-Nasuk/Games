@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic-Tac-Toe</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<header>
+  <h1>Tic-Tac-Toe</h1>
+</header>
+<main>
+  <form action="index.php" method="post">
+  <input type="hidden" name="turn" value="<? printf($turn);?>">
+    <?php WriteTableHeader(); ?>
+    <div class="div_form">
+      <input type="submit" name="btnNewGame" value="New Game">&nbsp;&nbsp;&nbsp;
+      <b>Difficulty Level</b>
+      <select name="dlDifficulty">
+        <option value="1">Easy</option>
+        <option value="2" selected>Normal</option>
+        <option value="3">Not-Likely</option>
+      </select><br><br>
+      <?php Render(); ?>
+    </div>
+    <?php WriteTableFooter(); ?>
+  </form>
+</main>
+
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
